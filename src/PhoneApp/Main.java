@@ -1,3 +1,4 @@
+package PhoneApp;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class Main {
         iphone.setColor("red");
         iphone.setModel("12");
 
-        System.out.println("IMEI Iphone 12 " + iphone.getImei());
+        System.out.println("IMEI PhoneApp.Iphone 12 " + iphone.getImei());
 
         System.out.println(iphone.getAllContacts());
 
