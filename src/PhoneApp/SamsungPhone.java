@@ -1,3 +1,5 @@
+package PhoneApp;
+
 public class SamsungPhone extends Phone {
 
     public SamsungPhone() {
