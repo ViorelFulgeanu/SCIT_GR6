@@ -1,3 +1,5 @@
+package PhoneApp;
+
 public class Contact {
 
     private Integer id;
@@ -46,7 +48,7 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Phone number -> " + getPhoneNumber() + "\n" +
+        return "PhoneApp.Phone number -> " + getPhoneNumber() + "\n" +
                 "First name -> " + getFirstName() + "\n" +
                 "Last name -> " + getLastName() + "\n";
     }
